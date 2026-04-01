@@ -27,5 +27,3 @@ ngram_counts_result = {
     " ".join(context): dict(counter)
     for context, counter in ngram_counts.items()
 }
-
-print(ngram_counts_result)
