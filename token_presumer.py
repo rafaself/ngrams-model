@@ -27,3 +27,10 @@ ngram_counts_result = {
     " ".join(context): dict(counter)
     for context, counter in ngram_counts.items()
 }
+
+print(ngram_counts_result)
+
+# Print as table with pandas
+import pandas as pd
+df = pd.DataFrame(ngram_counts_result)
+print(df)
